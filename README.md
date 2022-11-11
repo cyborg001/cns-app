@@ -1,4 +1,5 @@
-# capstone
+# CAPSTONE
+
 Final proyect for the Web Programming with Python and Javascript course.
 user: administrador, contrasena: analisisuasd
 INTRODUCTION
@@ -9,7 +10,7 @@ This app in the backend is constantly waiting for a new file named hyp.out wich 
 
 The webapp also shows data from the institution that is analizing the eartquakes.
 
-PASSING THE REQUIREMENTS
+# PASSING THE REQUIREMENTS
 
 I believe this project satisfies the distinctiveness and complexity requirements because of the following: 
 
@@ -73,11 +74,11 @@ UNDERSTANDING views.py
 - base_legal(request):
     send user to static page base_legal.html
 
-UNDERSTANDING script1.js
+# UNDERSTANDING script1.js
 
     in script1 we found the async function get_data(). this function creates the map(from leaflet), and call for the api, if the api response is success then it gets a geojson object wich has all the features for every las 20 earthquakes. with this data the map is populated and the talbe too.
 
-UNDERSTANDING script2.js
+# UNDERSTANDING script2.js
 
     in script2.js you'll find the async function get_sismo(id).
     this function receives a  parameter id which represents the id of the earthquake to analize, it also populates a list with the data returned from the promise, and populate the map for this only earthquake.
